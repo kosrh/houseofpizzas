@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Style pour le corps de la page */
+body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f400;
+        background-image: url('images/fond0.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+header {
+    .navbar {
+        background-color: #33333393; 
+        color: #fff; 
+        padding: 10px 20px; 
+    }
+    
+    .menu ul {
+        list-style-type: none; /* Supprime les puces de la liste */
+        margin: 0;
+        padding: 0;
+    }
+    
+    .menu ul li {
+        display: inline; /* Affiche les éléments de la liste horizontalement */
+    }
+    
+    .menu ul li a {
+        color: #fff; /* Couleur du texte des liens */
+        text-decoration: none; /* Supprime la soulignement des liens */
+        margin: 0 10px; /* Espacement entre les liens */
+        padding: 5px 10px; /* Espacement intérieur des liens */
+        border-radius: 5px; /* Coins arrondis pour les liens */
+    }
+    
+    .menu ul li a:hover {
+        background-color: #555; /* Couleur de fond au survol des liens */
+    }
+
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* Style pour le titre */
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+/* Style pour la description */
+p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+/* Style pour le bouton */
+.btn-primary {
+    display: block; 
+    width: 300px; 
+    margin: 0 auto; 
+    padding: 10px 20px; 
+    background-color: #282c2b; 
+    color: #fff; 
+    text-align: center; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    border: none; 
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Couleur de fond au survol */
+    cursor: pointer; /* Curseur pointer au survol */
+}
+
+/* Style pour les sections */
+section {
+    background-color: rgba(255, 255, 255, 0.226);
+    padding: 50px 0;
+    text-align: center;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+section p {
+    font-size: 1.1em;
+    color: #272222;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.11); 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.social ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social ul li a img {
+    width: 30px;
+    height: 30px;
+}
